@@ -181,3 +181,11 @@ a {
     font-weight: lighter;
 }
 
+.footer {
+    height: 75px;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
