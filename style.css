@@ -1,13 +1,23 @@
 body {
     font-family: roboto;
+    margin: 0;
+}
+
+.container {
+    background-color: #1f2937;
 }
 
 .nav {
     color: #e5e7eb;
-    background-color: #1f2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 16px;
+}
+
+.nav p {
+    font-weight: bold;
+    font-size: large;
 }
 
 ul {
@@ -19,4 +29,40 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 350px;
+}
+
+.hero-section h1 {
+    color: white;
+}
+
+.hero-section p {
+    color: rgba(255, 255, 255, 0.449);
+}
+
+.hero-section button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(9, 114, 241);
+    border: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.hero-right img {
+    width: 400px;
+    height: 250px;
 }
