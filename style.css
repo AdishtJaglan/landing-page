@@ -1,6 +1,9 @@
 body {
     font-family: roboto;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
@@ -17,7 +20,7 @@ body {
 
 .nav p {
     font-weight: bold;
-    font-size: large;
+    font-size: 24px;
 }
 
 ul {
@@ -28,7 +31,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #777777;
+    font-size: 20px;
 }
 
 .hero-section {
@@ -41,6 +45,8 @@ a {
 
 .hero-section h1 {
     color: white;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 .hero-section p {
@@ -59,10 +65,52 @@ a {
 .hero-left {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .hero-right img {
     width: 400px;
     height: 250px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.info-section h3 {
+    margin-bottom: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    color: rgba(10, 0, 0, 0.449);
+}
+
+.card-container {
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 64px;
+    margin-bottom: 16px;
+}
+
+.card-container img {
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(119, 198, 225);
+    border-radius: 8px;
 }
