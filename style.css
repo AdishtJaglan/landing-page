@@ -138,3 +138,46 @@ a {
     margin-right: 400px;
     font-size: 24px;
 }
+
+.last-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: rgb(9, 114, 241);
+    height: 150px;
+    width: 900px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.modal button {
+    width: 100px;
+    height: 32px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: rgb(9, 114, 241);
+    margin: 16px;
+}
+
+.modal h4 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+    font-weight: light;
+}
+
+.modal p {
+    margin: 0;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
