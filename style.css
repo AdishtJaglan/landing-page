@@ -1,0 +1,22 @@
+body {
+    font-family: roboto;
+}
+
+.nav {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
